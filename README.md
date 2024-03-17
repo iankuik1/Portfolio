@@ -1,2 +1,3 @@
 # Portfolio
-A portfolio containing some of the most notable projects that I have worked on.
+## A few of my projects throughout my university career! Feel free to look at releases for downloadable packages of my projects or videos for embedded projects.
+

@@ -1,0 +1,61 @@
+body {
+    background-color: brown;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+
+#playArea {
+    position: relative;
+    background-color: green;
+    border: 15px solid black;
+    padding: 10px;
+    margin: auto;
+    height: 800px;
+}
+
+div.cpu {
+    background-color: white;
+    height: 250px;
+    width: 200px;
+}
+
+#cpu1 {
+    position: absolute;
+    top: 100;
+    right: 0;
+    top: 50%;
+    margin: 20px;
+    transform: translateY(-50%);
+}
+
+#cpu2 {
+    position: absolute;
+    top: 100;
+    left: 0;
+    top: 50%;
+    margin: 20px;
+    transform: translateY(-50%);
+}
+
+#cpu3 {
+    position: absolute;
+    top: 0;
+    margin: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#player {
+    position: absolute;
+    bottom: 0;
+    margin: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    height: 250px;
+    width: 200px;
+}
