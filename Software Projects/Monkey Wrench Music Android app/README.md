@@ -1,10 +1,9 @@
-# COMPSYS302 Project 2 - MONKEY WRENCH
+# CS302 Project: MONKEY WRENCH MUSIC
 Ian Kuik & Jerome Jose
 
 # About
-Using AndroidStudio, we created an application that acts as a musical instrument shopping app that 
-allows users to view items provided from a generated database and be able to wishlist & add 
-the item to a cart. 
+Using Android Studio, we created an application prototype for a 
+musical instrument/ accessories shopping app. 
 
 # Features
 - Item List of 6 categories with 30 items each.
