@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brownred">#261b1b</color>
+    <color name="lightred">#f85b51</color>
+    <color name="cream">#DAD2BC</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="pinky">#d56883</color>
+    <color name="bg">#77293C</color>
+    <color name="nav">#D16862</color>
+</resources>
