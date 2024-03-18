@@ -8,6 +8,7 @@ the item to a cart.
 
 # Features
 - Item List of 6 categories with 30 items each.
+- Home view, item list view, wishlist and cart view, search views and activities.
 - Wishlist functionality.
 - Product Search and Filter functions.
 - Cart functionality.
@@ -20,4 +21,6 @@ the item to a cart.
 # Screenshots
 ![img_1.png](img_1.png)
 ![img.png](img.png)
-
+![img.png](img.png)
+![img_3.png](img_3.png)
+![img_2.png](img_2.png)
