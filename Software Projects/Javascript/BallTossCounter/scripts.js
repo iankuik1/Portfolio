@@ -32,6 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // sounds
   //const cashRegister = new Audio(CashRegister.mp3);
+  //cashRegister.preload = 'auto';
 
   // Call the startTimer function to begin the countdown
   startTimer();
