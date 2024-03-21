@@ -10,12 +10,7 @@ body {
 }
 
 body {
-  background: rgb(55, 126, 13);
-  background: linear-gradient(
-    90deg,
-    rgba(55, 126, 13, 1) 0%,
-    rgba(55, 126, 13, 1) 100%
-  );
+  background: black;
 }
 .container {
   display: flex;
@@ -31,6 +26,8 @@ body {
   text-align: center;
   height: 60%;
   background-color: black;
+  outline: solid;
+  outline-color: white;
 }
 .scoreDisplay h1 {
   margin-bottom: 15px;
@@ -39,7 +36,15 @@ body {
   font-size: 200px;
   font-style: initial;
   background-color: black;
+}
+#score1 {
   color: red;
+}
+#score2 {
+  color: blue;
+}
+#score3 {
+  color: green;
 }
 .card-btn button {
   border-radius: 5px;
@@ -75,7 +80,7 @@ button#reset:hover {
 }
 .teamField {
   margin: auto;
-  background: #1fbef7;
+  background: black;
   align-items: center;
   text-align: center;
   padding: 25px;
@@ -83,9 +88,10 @@ button#reset:hover {
 }
 .teamsContainer {
   display: flex;
-  background: #1fbef7;
+  background: black;
   justify-content: center;
   position: relative;
+  margin-top: 15px;
   margin-bottom: 15px;
 }
 .member2Field {
@@ -93,5 +99,28 @@ button#reset:hover {
 }
 
 .teamName {
+  color: white;
   font-size: 80;
+}
+
+#clock {
+  border-radius: 5px;
+  margin: auto;
+  position: relative;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  outline: solid;
+  outline-color: white;
+}
+
+.timeReading {
+  color: red;
+  font-size: 100px; /* Adjust font size as needed */
+}
+
+#clockContainer {
+  margin-top: 15px;
+  max-height: fit-content;
 }
