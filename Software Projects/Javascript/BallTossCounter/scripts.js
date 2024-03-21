@@ -16,7 +16,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Function to start countdown timer
   const startTimer = () => {
-    let totalSeconds = 3 * 60; // 3 minutes in seconds
     const countdown = setInterval(() => {
       const minutes = Math.floor(totalSeconds / 60);
       const seconds = totalSeconds % 60;
@@ -29,6 +28,11 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     }, 1000); // Update timer every second
   };
+
+  let totalSeconds = 3 * 60; // 3 minutes in seconds
+
+  // sounds
+  //const cashRegister = new Audio(CashRegister.mp3);
 
   // Call the startTimer function to begin the countdown
   startTimer();
@@ -48,11 +52,17 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!keysPressed[event.key]) {
       keysPressed[event.key] = true;
       if (event.key === '1') {
+        //cashRegister.play();
         incrementScore(score1, ++curValue1);
+        
       } else if (event.key === '2') {
+        //cashRegister.play();
         incrementScore(score2, ++curValue2);
+        
       } else if (event.key === '3') {
+        //cashRegister.play();
         incrementScore(score3, ++curValue3);
+        
       }
     }
   });
