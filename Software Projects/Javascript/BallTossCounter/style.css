@@ -10,28 +10,36 @@ body {
 }
 
 body {
-  background: rgb(255, 132, 100);
+  background: rgb(55, 126, 13);
   background: linear-gradient(
     90deg,
-    rgba(255, 132, 100, 1) 0%,
-    rgba(253, 105, 165, 1) 100%
+    rgba(55, 126, 13, 1) 0%,
+    rgba(55, 126, 13, 1) 100%
   );
 }
 .container {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100%;
+  height: 65%;
 }
-.card-body {
+.scoreDisplay {
+  margin: auto;
   background: #fff;
   padding: 25px;
   border-radius: 10px;
   text-align: center;
+  height: 60%;
+  background-color: black;
 }
-.card-body h1 {
+.scoreDisplay h1 {
   margin-bottom: 15px;
-  font-size: 70px;
+  align-content: center;
+  min-width: 200px; /* Set a minimum width for the scoreDisplay containers */
+  font-size: 200px;
+  font-style: initial;
+  background-color: black;
+  color: red;
 }
 .card-btn button {
   border-radius: 5px;
@@ -58,10 +66,32 @@ button#reset:hover {
   background: #ea2027;
   color: #fff;
 }
-button#increment {
+.incrementButton {
   background: #c4e538;
 }
-button#increment:hover {
+.incrementButton:hover {
   background: #009432;
   color: #fff;
+}
+.teamField {
+  margin: auto;
+  background: #1fbef7;
+  align-items: center;
+  text-align: center;
+  padding: 25px;
+  border-radius: 10px;
+}
+.teamsContainer {
+  display: flex;
+  background: #1fbef7;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 15px;
+}
+.member2Field {
+  margin-bottom: 15px;
+}
+
+.teamName {
+  font-size: 80;
 }
