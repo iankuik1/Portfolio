@@ -114,4 +114,5 @@ button#reset:hover {
 #clockContainer {
   margin-top: 15px;
   max-height: fit-content;
+  margin-bottom: 15px;
 }
