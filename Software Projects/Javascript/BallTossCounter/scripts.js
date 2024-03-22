@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
   //cashRegister.preload = 'auto';
 
   // Call the startTimer function to begin the countdown
-  startTimer();
+  //startTimer();
   
   let curValue1 = -1;
   let curValue2 = -1;
@@ -52,6 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   const keysPressed = {};
+  const startedTimer = false;
 
   document.addEventListener('keydown', (event) => {
     if (!keysPressed[event.key]) {
@@ -71,6 +72,12 @@ document.addEventListener('DOMContentLoaded', () => {
         //cashRegister.play();
         incrementScore(score3, ++curValue3);
         
+      } else if(event.key === '4') {
+        // start timer on key press of 4
+        if(!startedTimer) {
+          startTimer();
+          startedTimer = true; // make sure timer only starts once.
+        }
       }
     }
   });
